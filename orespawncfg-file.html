@@ -1,0 +1,698 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head><script src="gdpr\gdprscript.js?buildTime=1612900217&hasRemindMe=true&stealth=false"></script>
+		<title>OreSpawn.cfg File</title><meta property="og:site_name" content="OreSpawn">
+<meta property="og:title" content="OreSpawn.cfg File">
+<meta property="og:description" content="Help with any customization issues for OreSpawn!">
+<meta property="og:url" content="http://www.orespawn.com/orespawncfg-file.html">
+
+<meta name="description" content="Help with any customization issues for OreSpawn!">
+<meta name="keywords" content="OreSpawn, Minecraft, Mod, Download, Technical, Help, cfg, customize">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="image_src" href="uploads\2\5\3\5\25358181\7679168_orig.png">
+    <meta property="og:title" content="OreSpawn"> 
+	<meta property="og:image" content="http://www.weebly.com/uploads/2/5/3/5/25358181/7679168_orig.png"> 
+    <meta property="og:description" content="Home of the OreSpawn Mod. Download the mod or find any information you could ever want here! Can you take on the Kraken, Mobzilla, The King with his Queen,and... girlfriends!?"> 
+
+		
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="css\sites.css?buildTime=1612469478">
+<link rel="stylesheet" type="text/css" href="css\old\fancybox.css?1612469478">
+<link rel="stylesheet" type="text/css" href="files\main_style.css?1612737175" title="wsite-theme-css">
+<link href='css.css?family=Rokkitt:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-not-footer h2.wsite-content-title a, .wsite-not-footer .paragraph a, .wsite-not-footer blockquote a, #blogTable .blog-sidebar a, #blogTable .blog-comments a, #blogTable .blog-comments-bottom a, #wsite-com-store a, #wsite-com-product-gen a {color:#ad2323 !important;}
+.wsite-footer h2 a, .wsite-footer .paragraph a, .wsite-footer blockquote a {color:#8d2424 !important;}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+.wsite-not-footer h2.wsite-content-title a:hover, .wsite-not-footer .paragraph a:hover, .wsite-not-footer blockquote a:hover, #blogTable .blog-sidebar a:hover, #blogTable .blog-comments a:hover, #blogTable .blog-comments-bottom a:hover, #wsite-com-store a:hover, #wsite-com-product-gen a:hover {color:#840101 !important;}
+.wsite-footer h2 a:hover, .wsite-footer .paragraph a:hover, .wsite-footer blockquote a:hover {color:#8d2424 !important;}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {font-size:12px !important;}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+
+<style type='text/css'>
+.wsite-header {
+	background-image: url(uploads/2/5/3/5/25358181/header_images/1396567569.jpg) !important;
+	background-position: 0 0 !important;
+}
+</style>
+
+		<script src='files\templateArtifacts.js?1612737175'></script>
+<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='ajax\libs\jquery\1.8.3\jquery.min.js'></script>
+
+<script type="text/javascript" src="js\lang\en\stl.js?buildTime=1612469478&"></script>
+<script src="js\site\main.js?buildTime=1612469478"></script><script type="text/javascript">
+		function initCustomerAccountsModels() {
+					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
+})();
+		}
+		if(document.createEvent && document.addEventListener) {
+			var initEvt = document.createEvent('Event');
+			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+			document.dispatchEvent(initEvt);
+		} else if(document.documentElement.initCustomerAccountsModels === 0){
+			document.documentElement.initCustomerAccountsModels++
+		}
+		</script>
+		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='www.orespawn.com'; </script><script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.isCheckoutReskin = false;
+			_W.storeCountry = "US";
+			_W.storeCurrency = "USD";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "873224593166870165";
+			com_userID = "25358181";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="js\lang\en\stl.js?buildTime=1612469478&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
+	
+	
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"329031791891588114","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"625592964886746031","title":"Guides","url":"http:\/\/www.orespawn.com\/crafting-list.html","target":"","nav_menu":false,"nonclickable":false},{"id":"889555939536259794","title":"The DangerZone","url":"http:\/\/www.dangerzonegame.net","target":"_blank","nav_menu":false,"nonclickable":false},{"id":"392199600558300464","title":"Help","url":"help.html","target":"","nav_menu":false,"nonclickable":false},{"id":"544762124558257042","title":"About","url":"http:\/\/www.orespawn.com\/about.html","target":"","nav_menu":false,"nonclickable":false},{"id":"623822303275124232","title":"DOWNLOAD","url":"http:\/\/www.orespawn.com\/download.html","target":"","nav_menu":false,"nonclickable":false},{"id":"380157015970729708","title":"GALLERY","url":"http:\/\/www.orespawn.com\/gallery.html","target":"","nav_menu":false,"nonclickable":false}],
+			"723987143989554574",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{}
+		)
+	}
+//-->
+</script>
+		
+		
+	</head>
+	<body class="short-header-page  wsite-theme-light  wsite-page-orespawncfg-file"><div id="body-wrap">
+	<div id="body-wrap-inner">
+		<div id="header-wrap">
+			<div class="container">
+				<table id="header">
+					<tr>
+						<td class="phone-number"></td>
+						<td id="header-right">
+							<table>
+								<tr>
+									<td class="social"><div style="text-align:left;"><div style="height:0px;overflow:hidden"></div>
+<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='OreSpawn.html' target='_blank' alt='Facebook' aria-label='Facebook'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-youtube' href='channel\UC_Tsf31uosncmWCICYO52Dw.html' target='_blank' alt='Youtube' aria-label='Youtube'><span class='wsite-social-item-inner'></span></a></span>
+<div style="height:0px;overflow:hidden"></div></div></td>
+									<td class="search"><span class="wsite-search">
+	<form id="wsite-header-search-form" action="/apps/search" method="get">
+		<input type="text" name="q" class="wsite-search-input" autocomplete="off" placeholder="Search"><span class="wsite-search-button"><span class="wsite-search-button-inner"></span></span>
+	</form>
+</span></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div><!-- end container -->
+		</div><!-- end header-wrap -->  
+	
+<div class="logo-align">
+			<div id="logo"><span class="wsite-logo">
+
+	
+	<span class="wsite-title-placeholder">&nbsp;</span><span style="display:none">
+	<span style="display:none">OreSpawn</span>
+	</span>
+	
+
+</span></div>		
+</div><!-- logo align -->
+	
+		<div id="nav-wrap">
+			<div id="nav-top"></div>
+			<div class="side-shadow-bg">
+			<div id="nav-wrap-inner">
+			<div id="nav-wrap-repeat">
+			<div class="container">
+				<table>
+					<tr>
+						<td><ul class="wsite-menu-default">
+		<li id="pg329031791891588114" class="wsite-menu-item-wrap">
+			<a href="index.htm" class="wsite-menu-item">
+				Home
+			</a>
+			
+		</li>
+		<li id="pg625592964886746031" class="wsite-menu-item-wrap">
+			<a href="crafting-list.html" class="wsite-menu-item">
+				Guides
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-836987543469585223" class="wsite-menu-subitem-wrap ">
+	<a href="crafting-list.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Crafting List
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-978055011825539337" class="wsite-menu-subitem-wrap ">
+	<a href="mobs.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Mobs
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-224744399672046981" class="wsite-menu-subitem-wrap ">
+	<a href="armor.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Armor
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-980657913988231667" class="wsite-menu-subitem-wrap ">
+	<a href="tools-and-weapons.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Tools and Weapons
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-278617879700487195" class="wsite-menu-subitem-wrap ">
+	<a href="dungeons.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Dungeons
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-495523181471390460" class="wsite-menu-subitem-wrap ">
+	<a href="dimensions.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Dimensions
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-197920546529284938" class="wsite-menu-subitem-wrap ">
+	<a href="girlfriends--boyfriends.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Girlfriends & Boyfriends
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-711129342383840258" class="wsite-menu-subitem-wrap ">
+	<a href="battle-mobs-gameplay.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Battle Mobs Gameplay
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-729853267128701400" class="wsite-menu-subitem-wrap ">
+	<a href="items.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Items
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-784124321668754038" class="wsite-menu-subitem-wrap ">
+	<a href="ancient-dried-eggs.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Ancient Dried Eggs
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-326091310648747565" class="wsite-menu-subitem-wrap ">
+	<a href="materials.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Materials
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-812202175700952286" class="wsite-menu-subitem-wrap ">
+	<a href="food.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Food
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-520299679979486460" class="wsite-menu-subitem-wrap ">
+	<a href="plants-and-trees.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Plants and Trees
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-844952446507185140" class="wsite-menu-subitem-wrap ">
+	<a href="things-to-do.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Things to do
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg889555939536259794" class="wsite-menu-item-wrap">
+			<a href="index-1.htm" target="_blank" class="wsite-menu-item">
+				The DangerZone
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-499978335276684331" class="wsite-menu-subitem-wrap ">
+	<a href="index-1.htm" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			RealDangerZone
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg392199600558300464" class="wsite-menu-item-wrap">
+			<a href="help.html" class="wsite-menu-item">
+				Help
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-677830223200229110" class="wsite-menu-subitem-wrap ">
+	<a href="installation-help.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Installation Help
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-723987143989554574" class="wsite-menu-subitem-wrap wsite-nav-current">
+	<a href="orespawncfg-file.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			OreSpawn.cfg File
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-801381985887935188" class="wsite-menu-subitem-wrap ">
+	<a href="technical-help.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Technical Help
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg544762124558257042" class="wsite-menu-item-wrap">
+			<a href="about.html" class="wsite-menu-item">
+				About
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-894212823989651009" class="wsite-menu-subitem-wrap ">
+	<a href="about.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			About
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-251199793878868416" class="wsite-menu-subitem-wrap ">
+	<a href="credits.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Credits
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-392466501113210599" class="wsite-menu-subitem-wrap ">
+	<a href="legal.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Legal
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg623822303275124232" class="wsite-menu-item-wrap">
+			<a href="download.html" class="wsite-menu-item">
+				DOWNLOAD
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-593287518362815016" class="wsite-menu-subitem-wrap ">
+	<a href="download.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Download
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg380157015970729708" class="wsite-menu-item-wrap">
+			<a href="gallery.html" class="wsite-menu-item">
+				GALLERY
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-268343192147011320" class="wsite-menu-subitem-wrap ">
+	<a href="gallery.html" class="wsite-menu-subitem">
+		<span class="wsite-menu-title">
+			Gallery
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+</ul>
+</td>
+					</tr>
+				</table>
+			</div><!-- end container -->
+			</div>
+			</div>
+			</div>
+		</div><!-- end nav-wrap -->
+	
+		<div class="side-shadow-bg">
+		<div id="banner-wrap">
+			<div id="banner-top"></div>
+			<div class="container">
+				<div id="banner">
+				
+					<div class="wsite-header"></div>
+					
+					<div style="clear:both;"></div>
+				</div><!-- end banner -->
+			</div><!-- end container -->
+			<div id="banner-bottom"></div>
+		</div><!-- end banner-wrap -->
+		</div>
+	
+		<div id="main-wrap">
+			<div class="side-shadow-bg">
+			<div class="container">
+				<div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<h2 class="wsite-content-title" style="text-align:center;"><font size="7">OreSpawn.cfg File</font></h2>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:8.5405405405405%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:91.459459459459%; padding:0 15px;">
+					
+						
+
+<div class="wsite-adsense"> 
+
+            <script type="text/javascript" src="weebly\apps\serveAds-49.html?type=adsense&elementid=651079375288718904&ineditor=0&subdomain=www.orespawn.com&pubid=pub-2290801765889067&adformat=728x90&adtype=text_image&bordercolor=EEEEEE&bgcolor=EEEEEE&linkcolor=0F53FF&textcolor=000000&urlcolor=990000"></script></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="paragraph" style="text-align:center;">Here is how to change and edit the OreSpawn.cfg file to customize your experience.<br>We do not suggest changing anything if you don't need to but for those with servers, this may be helpful.<br><span><span><br></span></span><strong><font size="5">How to edit:</font></strong><br>After running with OreSpawn for the first time, the file OreSpawn.cfg will be created in your .minecraft/config directory.<span style="line-height: 1.5;">&nbsp;</span><br><br><span><strong><font size="3">Find your .minecraft directory:</font></strong>&nbsp;</span><br><span>In the official Minecraft launcher,&nbsp;</span><span style="line-height: 1.5;">select your modded profile in the drop-down menu in the bottom-left corner and click the "Edit Profile" button. It will open a window. Click on the button at the bottom of that window that says "Open Game Dir." This will take you to your .minecraft folder, then just open the folder that says "config." The OreSpawn.cfg file will be in there. If this doesn't work, use the Finder/Window search bar to look for the file named "OreSpawn.cfg"</span><br><br><strong style=""><font size="3">Open OreSpawn.cfg:</font></strong>&nbsp;<br>OreSpawn.cfg is a plain text file. Edit it with your favorite text editor. &nbsp;(Notepad for Windows or TextEdit for Mac should be fine!)<br><span style="line-height: 1.5;">To open, Right click on the file and&nbsp;</span>select "Open with" then (if needed) choose "Other". Find the application and choose it.<br><br><u>Save the changes and exit your editor.</u><br></div>
+
+<div><div style="height: 30px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;">
+<div style="height: 30px; overflow: hidden; width: 100%;"></div></div>
+
+<div class="paragraph" style="text-align:left;"><strong><font size="4">The "orespawnmobs" section</font></strong> has greatly expanded. Most mob settings can be easily identified by their names. Some can't. Those are:<span><span></span></span><br><ul><li><span><span><span>GammaMetroid = WTF?</span></span></span></li><li><span><span><span><span></span>Godzilla = Mobzilla</span></span></span></li><li><span><span><span><span></span>Robot1 = Bomb-Omb</span></span></span></li><li><span><span><span><span>Robot2 = Robo-Pounder</span></span></span></span></li><li><span><span><span><span><span>Robot3 = Robo-Gunner</span></span></span></span></span></li><li><span><span><span><span><span><span>Robot4 = Robo-Warrior</span></span></span></span></span></span></li><li><span><span><span><span><span><span><span><span>Robot5 = Robo-Sniper</span></span></span></span></span></span></span></span></li><li><span><span><span><span><span><span><span></span></span></span></span>TrooperBug = Jumpy Bug</span></span></span></li></ul><span><span><span><br><span>Non-hostile mobs can be simply enabled or disabled via their &lt;mobname&gt;Enable= value. Hostile mobs have a few other settings that can be changed.<br><span><br><span>&lt;mobname&gt;Enable - default 1, 0 = no automatic spawning. Manual spawning via eggs still works. Existing mobs will stay. No new ones will be spawned.<br><span>&lt;mobname&gt;_attack - the attack value for the mob. Range is 1/2 to double the original value in the config file.<br><span>&lt;mobname&gt;_defense - </span></span></span></span></span>the armor/defense value for the mob. Can be adjusted up or down by 4, but not more than 22 or less than 0.<br><span>&lt;mobname&gt;_health - the health for that mob. </span></span></span></span>Range is 1/2 to double the original value in the config file.<br><br><span><strong><font size="4">The "orespawnores" section </font></strong>now allows you to have a little more control over ore rate and locations.<br><span><br><span>&lt;orename&gt;_clumpsize - is the size of the clump of ores in the ground. </span></span></span>Range is 1/2 to double the original value in the config file. Bigger = more.<br><span>&lt;orename&gt;_maxdepth - is the highest Y level at which the ore can be found. Must be greater than _mindepth.<br><span>&lt;orename&gt;_mindepth - is the lowest Y level at which the ore can be found. Must be less than _maxdepth.<br><span>&lt;orename&gt;_rate - </span></span></span>is the relative rate that the ore is created. Range is 1/2 to double the original value in the config file. Bigger = more common.<br><span><br><span></span></span><br><span><strong><font size="4">The "orespawnarmor" section </font></strong>allows you to tweak armor values and enchantments up or down.<br><span><br><span>&lt;armortype&gt;_boots_damage_reduce - how much boots will reduce attack damage. No max, can only be reduced by 2.<br><span></span></span></span></span>&lt;armortype&gt;_chest_damage_reduce - how much chestplate will reduce attack damage. No max, can only be reduced by 2.<br>&lt;armortype&gt;_leggings_damage_reduce - how much leggings will reduce attack damage. No max, can only be reduced by 2.<br><span><span><span>&lt;armortype&gt;_head_damage_reduce - how much helmet will reduce attack damage. </span></span></span>No max, can only be reduced by 2.<br><span>&lt;armortype&gt;_enchant_&lt;enchantment&gt; - </span>the level of that enchantment for the armor. Min 1/2 original value, no max.<br><span>&lt;armortype&gt;_enchantability - the maximum magic this armor can handle</span>. Range 1/2 to double original value.<br><span>&lt;armortype&gt;</span>_durability - how durable the armor is (how long it lasts). Range 1/2 to double original value.<br><br><br><strong><font size="4">The</font><font size="4"> "orespawntweaks" section</font></strong> contains a few stray but useful settings.<br><ul><li><span><span><span><span><span>AllMobsDisable - default 0, 1 = disable all mobs (instead of having to do them individually)</span></span></span></span></span></li><li><span><span><span><span><span><span>BigBerthaPvP - default 0, 1 = allow PVP with Big Bertha/Slice/Royal Guardian Sword. NOT RECOMMENDED! Duh!</span></span></span></span></span></span></li><li><span><span><span><span><span><span><span>BoyfriendBroMode - default 0, 1 = say things more appropriate between guys.</span></span></span></span></span></span></span></li><li><span><span><span><span><span><span><span><span>DuplicatorTreeEnable - default 1, 0 = disable duplicating.</span></span></span></span></span></span></span></span></li><li><span><span><span><span><span><span></span>IslandSizeFactor - default 2, range 1-5, size multiplier for floating islands</span></span></span></span></span></li><li><span><span><span><span><span><span>IslandSPeedFactor - default 2, range 1-5, speed multiplier for floating islands</span></span></span></span></span></span></li><li><span><span><span><span><span>LessOre - default 0, 1 = make ores more rare</span></span></span></span></span></li><li><span><span><span><span><span><span>LessLag = default 0, 1 = a little bit less lag.</span></span></span></span></span></span></li><li><span><span><span><span><span><span></span></span>GuiOverlayEnable - default 1, 0 = disable the "Girlfriend/Boss" health bar at the top of the screen</span></span></span></span></li><li><span><span><span><span><span></span>GinormousEmeraldTreeEnable = default 1, 0 = disable the rare gold/diamond/emerald OMG Magic Apple tree</span></span></span></span></li><li><span><span><span><span><span><span></span>RatPlayerFriendly - default 0, </span>sets rats spawned by the Rat Sword friendly to ALL players, not just the sword holder.</span></span></span></span></li><li><span><span><span><span><span><span></span>RatPetFriendly - default 0, sets Rats spawned by the Rat Sword friendly to ALL tamed pets, not just the sword holder's.</span></span></span></span></span></li><li><span><span><span><span><span><span>NightmareSize - default 0, range 0-5, 0 = random size, 1=smallest, 5=biggest</span></span></span></span></span></span></li><li><span><span><span><span><span><span><span>UltimateSwordPvP - default 0, 1 = allow PVP with the Ultimate Sword. Also NOT recommended.</span></span></span></span></span></span></span></li><li><span><span><span><span><span><span><span><span>PlayNicely - default 0, 1 = ALL Orespawn mobs are non-hostile and non-destructive. Kraken, King, Mobzilla, and CaterKiller are all scaled down in size.</span></span></span></span></span></span></span></span></li><li><span><span><span><span><span><span><span><span><span>RoaylGlideEnable - default 1, 0 = turn OFF glide on the Royal Armor boots.</span></span></span></span></span></span></span></span></span></li><li><span><span><span><span><span><span><span><span><span><span>DragonFlyHorseFriendly - default 0, 1 = Dragonflies won't attack horses.</span></span></span></span></span></span></span></span></span></span></li><li><span><span><span><span><span><span><span><span><span><span><span>Miner's DreamExpensive - default 0, 1 = makes harder to craft.</span></span></span></span></span></span></span></span></span></span></span></li><li><span><span><span><span><span><span><span><span><span><span><span><span>FullPowerKingEnable - default 0, 1 = the full King's wrath. Backup your world first!<br></span></span></span></span></span></span></span></span></span></span></span></span></li></ul><br><font size="3" color="#2a2a2a"><strong>PlayNicely under the "orespawntweaks" section</strong></font><br><ul style=""><li style="">PlayNicely - default 0, 1 = ALL Orespawn mobs are non-hostile and non-destructive. Kraken, King, Mobzilla, and CaterKiller are all scaled down in size.</li></ul><br><br><strong><font size="4">The "orespawnids" section</font></strong> contains the four basic settings that allow you to change the ranges of items, dimensions, blocks, and biomes. OreSapwn uses consecutive IDs beginning at the base number specified.<br><span><br><span>BaseBiomeID - default 120, size 4, Range 50 to 250.<br><span>BaseBlockID - default 2700, size about 300, Range 600 to 1800, or 2500 to 3600.<br><span>BaseDimensionID - default 80, size 5, Range 10 to 250.<br><span>BaseItemID - default 9000</span></span></span></span></span>, size about 450, Range 3000 to 31500.<br><span><br><span></span></span><strong><font size="4">The "orespawnweapons" section</font></strong> allows changing various parameters for tools and weapons. Tools and weapons are made from a material. More than one set of weapons/tools can be made from one material. For example, Big Bertha and Slice use one material. The experience and emerald weapons also use the same material. This section describes the materials used.<br><span><br><span>&lt;material&gt;_damage - base damage for weapons made from this material. Range is 1/2 to double the original value.<br><span>&lt;material&gt;_efficiency - how fast the tool works on what it was made for. </span></span></span>Range is 1/2 to double the original value.<br><span></span>&lt;material&gt;_enchantability - how much magic the material can hold. Bigger = more. Range is 1/2 to double the original value.<br><span>&lt;material&gt;_harvestlevel - the maximum hardness of a material that this tool can harvest. Can be lowered 1. No max.<br><span>&lt;material&gt;_maxuses - how durable this material is. Bigger = lasts longer.</span></span> Range is 1/2 to double the original value.<br><span>UltimateBowDamage - damage the ultimate bow does per shot. Range 2-20.<br><span>UltimateSwordEnchantmentLevel - how much magic is put on the Ultimate Sword. Range 1-10.</span><br><span><br></span></span><strong style=""><font size="4">Active/Deactive Boyfriends &amp; Girlfriends &amp; Bro Mode</font></strong><br>Change the line "BoyfriendEnable 0" to"BoyfriendEnable 1". This enables Boyfriends.<br>To disable Girlfriends, change the line "GirlfriendEnable 1" to "GirlfriendEnable 0".<br>This will only stop creating new ones; it will not kill off any pre-existing ones.<br>Create a new world, and enjoy your new Boyfriends!<br>To change the Boyfriends to "Bro Mode", change the line "BoyfriendBroMode=0" to "BoyfriendBroMode=1".<br><br><span><span><br><br><span><strong><font size="6">Oops! I broke my OreSpawn.cfg file. What do I do?</font></strong><span><br><span>Easy! Just delete it. Run the game. Stop the game. OreSpawn.cfg is completely reset and restored.</span></span></span></span></span><span><span><span><br><span></span></span></span></span></div>
+</div>
+
+			</div><!-- end container -->
+			</div>
+		</div><!-- end main-wrap -->
+		
+		<div id="copyright-wrap">
+			<div class="side-shadow-bg">
+				<div id="copyright-left-bg">
+				<div id="copyright-right-bg">
+				<div class="container">
+					<!--{copyright:text}-->
+					<div id="copyright-arrow"></div>
+				</div><!-- end container -->
+				</div>
+				</div>
+			</div>
+		</div>
+	
+		<div id="footer-wrap">
+			<div class="side-shadow-bg">
+			<div id="footer-top"></div>
+			<div id="footer-repeat">
+			<div class="container">
+				<div class='wsite-elements wsite-footer'>
+<div class="paragraph" style="text-align:center;">All rights belong to TheyCallMeDanger 2012-2021<br>OreSpawn and all programming created by: TheyCallMeDanger<br>Website created by: MeganLorraine</div>
+
+<div style="text-align:center;"><div style="height:10px;overflow:hidden"></div>
+<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='pages\OreSpawn\1374335146218411.html' target='_blank' alt='Facebook' aria-label='Facebook'><span class='wsite-social-item-inner'></span></a></span>
+<div style="height:10px;overflow:hidden"></div></div></div>
+			</div><!-- end container -->
+			</div>
+			</div>
+			<div id="footer-bottom"></div>
+		</div><!-- end footer-wrap -->
+		
+	</div><!-- enf body-wrap-inner -->
+	</div><!-- enf body-wrap -->
+
+    <div id="customer-accounts-app"></div>
+    <script src="js\site\main-customer-accounts-site.js?buildTime=1612469478"></script>
+
+		<div style="text-align:center;"> 
+<!-- Start of StatCounter Code for Weebly -->
+<script type="text/javascript">
+var sc_project=9526076; 
+var sc_invisible=0; 
+var sc_security="c5b8b967"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script><center>
+<noscript><div class="statcounter"><a title="weebly
+statistics" href="weebly\index.htm" target="_blank"><img class="statcounter" src="9526076\0\c5b8b967\0\index.png" alt="weebly statistics"></a></div></noscript>
+<!-- End of StatCounter Code for Weebly -->
+</center></div><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-7870337-1']);
+	_gaq.push(['_setDomainName', 'none']);
+	_gaq.push(['_setAllowLinker', true]);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	_W.Analytics = _W.Analytics || {'trackers': {}};
+	_W.Analytics.trackers.wGA = '_gaq';
+</script>
+
+<script type="text/javascript" async="1">
+	;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+			p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+			};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+			n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//cdn2.editmysite.com/js/wsnbn/snowday262.js','snowday'));
+
+	var r = [99, 104, 101, 99, 107, 111, 117, 116, 46, 40, 119, 101, 101, 98, 108, 121, 124, 101, 100, 105, 116, 109, 121, 115, 105, 116, 101, 41, 46, 99, 111, 109];
+	var snPlObR = function(arr) {
+		var s = '';
+		for (var i = 0 ; i < arr.length ; i++){
+			s = s + String.fromCharCode(arr[i]);
+		}
+		return s;
+	};
+	var s = snPlObR(r);
+
+	var regEx = new RegExp(s);
+
+	_W.Analytics = _W.Analytics || {'trackers': {}};
+	_W.Analytics.trackers.wSP = 'snowday';
+	_W.Analytics.user_id = '25358181';
+	_W.Analytics.site_id = '873224593166870165';
+
+	// Setting do not track if the GDPR cookie is not present. This is then checked by the snowday initializer
+	// to set tracking decisions. https://github.com/snowplow/snowplow-javascript-tracker/blob/2.6.2/src/js/tracker.js#L1509
+	window.doNotTrack = document.cookie.indexOf('gdpr-kb') === -1 ? 'yes' : null;
+
+	var drSegmentsTag = document.getElementById('drSegments');
+	if (drSegmentsTag) {
+		_W.Analytics.spContexts = _W.Analytics.spContexts || [];
+
+		var segmentData = JSON.parse(drSegmentsTag.innerText);
+		segmentData.forEach(function(test) {
+			_W.Analytics.spContexts.push({
+				schema: "iglu:com.weebly/context_ab_segment/jsonschema/1-0-0",
+				data: {
+					test_id: test.name,
+					segment: test.variant,
+				}
+			});
+		});
+	}
+
+
+	(function(app_id, ec_hostname, discover_root_domain) {
+		var track = window[_W.Analytics.trackers.wSP];
+		if (!track) return;
+		track('newTracker', app_id, ec_hostname, {
+			appId: app_id,
+			post: true,
+			platform: 'web',
+			discoverRootDomain: discover_root_domain,
+			cookieName: '_snow_',
+			contexts: {
+				webPage: true,
+				performanceTiming: true,
+				gaCookies: true
+			},
+			crossDomainLinker: function (linkElement) {
+				return regEx.test(linkElement.href);
+			},
+			respectDoNotTrack: document.cookie.indexOf('gdpr-kb') === -1
+		});
+		track('trackPageView', _W.Analytics.user_id+':'+_W.Analytics.site_id, _W.Analytics.spContexts);
+		track('crossDomainLinker', function (linkElement) {
+			return regEx.test(linkElement.href);
+		});
+	})(
+		'_wn',
+		'ec.editmysite.com',
+		true
+	);
+</script>
+
+
+
+
+
+<script>
+	(function(jQuery) {
+		try {
+			if (jQuery) {
+				jQuery('div.blog-social div.fb-like').attr('class', 'blog-social-item blog-fb-like');
+				var $commentFrame = jQuery('#commentArea iframe');
+				if ($commentFrame.length > 0) {
+					var frameHeight = jQuery($commentFrame[0].contentWindow.document).height() + 50;
+					$commentFrame.css('min-height', frameHeight + 'px');
+				}
+				if (jQuery('.product-button').length > 0){
+					jQuery(document).ready(function(){
+						jQuery('.product-button').parent().each(function(index, product){
+							if(jQuery(product).attr('target') == 'paypal'){
+								if (!jQuery(product).find('> [name="bn"]').length){
+									jQuery('<input>').attr({
+										type: 'hidden',
+										name: 'bn',
+										value: 'DragAndDropBuil_SP_EC'
+									}).appendTo(product);
+								}
+							}
+						});
+					});
+				}
+			}
+			else {
+				// Prototype
+				$$('div.blog-social div.fb-like').each(function(div) {
+					div.className = 'blog-social-item blog-fb-like';
+				});
+				$$('#commentArea iframe').each(function(iframe) {
+					iframe.style.minHeight = '410px';
+				});
+			}
+		}
+		catch(ex) {}
+	})(window._W && _W.jQuery);
+</script>
+
+<script>
+	window._W.isEUUser = false;
+	window._W.showCookieToAll = "";
+</script>
+
+
+	</body>
+</html>
